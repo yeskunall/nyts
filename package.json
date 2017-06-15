@@ -1,0 +1,29 @@
+{
+  "name": "nyts",
+  "version": "1.0.0",
+  "description": "Node.js wrapper for the YTS API.",
+  "main": "./lib/nyts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeskunall/nyts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yeskunall/nyts/issues"
+  },
+  "homepage": "https://github.com/yeskunall/nyts#readme",
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.3.0",
+    "jest-cli": "^20.0.4"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

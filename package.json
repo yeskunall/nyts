@@ -30,5 +30,10 @@
   },
   "jest": {
     "testEnvironment": "node"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }

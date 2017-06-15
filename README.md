@@ -1,4 +1,4 @@
-# nyts
+# nyts `(v0.0.2)`
 
 Node.js wrapper for the YTS API.
 

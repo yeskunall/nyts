@@ -1,6 +1,6 @@
 {
   "name": "nyts",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Node.js wrapper for the YTS API.",
   "main": "./lib/nyts",
   "scripts": {
@@ -10,8 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/yeskunall/nyts.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "api",
+    "torrent",
+    "torrents",
+    "yts"
+  ],
+  "author": "Kunall Banerjee <yeskunall96@gmail.com> (https://kimchi.surge.sh/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yeskunall/nyts/issues"

@@ -4,7 +4,8 @@
   "description": "Node.js wrapper for the YTS API.",
   "main": "./lib/nyts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "precommit": "lint-staged"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,9 @@
     "eslint": "^4.0.0",
     "eslint-config-airbnb-base": "^11.2.0",
     "eslint-plugin-import": "^2.3.0",
-    "jest-cli": "^20.0.4"
+    "husky": "^0.13.4",
+    "jest-cli": "^20.0.4",
+    "lint-staged": "^3.6.1"
   },
   "jest": {
     "testEnvironment": "node"
@@ -35,5 +38,11 @@
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
+  },
+    "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }

@@ -1,4 +1,4 @@
-# nyts `(v0.0.4)` [![Build Status](https://travis-ci.org/yeskunall/nyts.svg?branch=master)](https://travis-ci.org/yeskunall/nyts)
+# nyts `(v0.0.5)` [![Build Status](https://travis-ci.org/yeskunall/nyts.svg?branch=master)](https://travis-ci.org/yeskunall/nyts)
 
 Node.js wrapper for the YTS API.
 

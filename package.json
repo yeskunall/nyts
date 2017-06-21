@@ -1,6 +1,6 @@
 {
   "name": "nyts",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Node.js wrapper for the YTS API.",
   "main": "./lib/nyts",
   "scripts": {
@@ -44,7 +44,7 @@
   },
   "lint-staged": {
     "*.js": [
-      "prettier --write",
+      "prettier --write --trailing-comma all",
       "git add"
     ]
   }

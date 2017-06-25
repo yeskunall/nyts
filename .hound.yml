@@ -1,0 +1,6 @@
+eslint:
+  enabled: true
+# The above should do the trick, but
+# just in case
+jshint:
+  enabled: false

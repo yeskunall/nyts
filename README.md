@@ -1,5 +1,7 @@
 # nyts `(v0.0.6)` [![Build Status](https://travis-ci.org/yeskunall/nyts.svg?branch=master)](https://travis-ci.org/yeskunall/nyts)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/yeskunall/nyts.svg)](https://greenkeeper.io/)
+
 Node.js wrapper for the YTS API.
 
 > Currently only supports Node 6 and 7. Support for Node 8 will be added later on, but older versions will probably not be supported. Read more on this [here](https://github.com/yeskunall/nyts/issues/1). <br /><br />

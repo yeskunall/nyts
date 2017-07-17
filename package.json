@@ -48,5 +48,8 @@
       "prettier --write --trailing-comma all --single-quote true",
       "git add"
     ]
+  },
+  "dependencies": {
+    "axios": "^0.16.2"
   }
 }

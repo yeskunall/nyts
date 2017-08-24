@@ -1,10 +1,9 @@
 import gulp from 'gulp';
 import babel from 'gulp-babel';
+import rimraf from 'rimraf';
 
-gulp.task('default', () =>
-  gulp.src('./lib/nyts.js')
-    .pipe(babel({
-      presets: ['env'],
-    }))
-    .pipe(gulp.dest('dist')),
+gulp.task('clean', () => rimraf('./dist', () => {}));
+
+gulp.task('build', ['clean'], () =>
+  gulp.src('./lib/**/*.js').pipe(babel()).pipe(gulp.dest('dist')),
 );

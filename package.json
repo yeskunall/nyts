@@ -24,13 +24,13 @@
   },
   "homepage": "https://github.com/yeskunall/nyts#readme",
   "devDependencies": {
-    "babel-preset-env": "1.5.2",
+    "babel-preset-env": "1.6.0",
     "eslint": "^4.0.0",
     "eslint-config-airbnb-base": "^11.2.0",
     "eslint-plugin-import": "^2.3.0",
     "gulp": "3.9.1",
     "gulp-babel": "6.1.2",
-    "husky": "^0.13.4",
+    "husky": "^0.14.0",
     "jest-cli": "^20.0.4",
     "lint-staged": "^4.0.0",
     "prettier": "^1.4.4"
@@ -45,8 +45,11 @@
   },
   "lint-staged": {
     "*.js": [
-      "prettier --write --trailing-comma all",
+      "prettier --write --trailing-comma all --single-quote true",
       "git add"
     ]
+  },
+  "dependencies": {
+    "axios": "^0.16.2"
   }
 }

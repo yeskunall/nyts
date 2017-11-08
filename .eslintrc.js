@@ -6,7 +6,7 @@ module.exports = {
     'no-console': 0,
   },
   parserOptions: {
-    ecmaVersion: 6,
+    ecmaVersion: 8,
     sourceType: 'module',
   },
   env: {

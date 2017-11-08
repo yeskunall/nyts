@@ -1,7 +1,0 @@
-eslint:
-  enabled: true
-  config_file: .eslintrc.js
-# The above should do the trick, but
-# just in case
-jshint:
-  enabled: false

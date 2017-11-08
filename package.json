@@ -1,7 +1,7 @@
 {
   "name": "nyts",
-  "version": "0.1.0",
-  "description": "Node.js wrapper for the YTS API.",
+  "version": "0.2.0",
+  "description": "🍬 Promise-based, Node.js wrapper for the YTS API.",
   "main": "./lib/nyts",
   "scripts": {
     "test": "jest",

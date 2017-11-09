@@ -4,7 +4,7 @@
   "description": "🍬 Promise-based, Node.js wrapper for the YTS API.",
   "main": "./lib/nyts",
   "scripts": {
-    "test": "jest",
+    "test": "./node_modules/.bin/ava",
     "precommit": "lint-staged"
   },
   "repository": {
@@ -24,17 +24,14 @@
   },
   "homepage": "https://github.com/yeskunall/nyts#readme",
   "devDependencies": {
+    "ava": "^0.23.0",
     "eslint": "^4.0.0",
     "eslint-config-airbnb-base": "^12.0.0",
     "eslint-plugin-import": "^2.3.0",
     "husky": "^0.14.0",
-    "jest-cli": "^20.0.4",
     "lint-staged": "^4.0.0",
     "nock": "^9.0.28",
     "prettier": "^1.4.4"
-  },
-  "jest": {
-    "testEnvironment": "node"
   },
   "config": {
     "commitizen": {

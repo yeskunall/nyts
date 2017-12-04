@@ -4,9 +4,10 @@ module.exports = {
   rules: {
     camelcase: [0, { properties: 'never' }],
     'no-console': 0,
+    'comma-dangle': 1,
   },
   parserOptions: {
-    ecmaVersion: 8,
+    ecmaVersion: 6,
     sourceType: 'module',
   },
   env: {

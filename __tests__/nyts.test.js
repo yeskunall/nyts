@@ -1,5 +1,3 @@
-/* eslint-disable arrow-parens */
-
 import test from 'ava';
 import nock from 'nock';
 

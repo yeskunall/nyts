@@ -1,11 +1,11 @@
 {
   "name": "nyts",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "🍬 Promise-based, Node.js wrapper for the YTS API.",
   "main": "./lib/nyts",
   "scripts": {
-    "test": "./node_modules/.bin/ava",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -17,12 +17,15 @@
     "torrents",
     "yts"
   ],
-  "author": "Kunall Banerjee <yeskunall96@gmail.com> (https://kimchi.surge.sh/)",
+  "author": "Kunall Banerjee <yeskunall96@gmail.com> (https://kimchi.now.sh/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yeskunall/nyts/issues"
   },
   "homepage": "https://github.com/yeskunall/nyts#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
   "devDependencies": {
     "ava": "^0.25.0",
     "eslint": "^4.13.1",
@@ -33,18 +36,10 @@
     "nock": "^9.0.28",
     "prettier": "^1.9.2"
   },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
   "lint-staged": {
     "*.js": [
       "prettier --write --config .prettierrc",
       "git add"
     ]
-  },
-  "dependencies": {
-    "axios": "^0.18.0"
   }
 }
